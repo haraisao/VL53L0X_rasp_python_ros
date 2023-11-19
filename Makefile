@@ -10,7 +10,8 @@ OBJ_DIR = obj
 ROOT_DIR := $(shell pwd)
 API_DIR := $(ROOT_DIR)/Api
 
-TARGET_LIB = $(OUTPUT_DIR)/vl53l0x_python
+#TARGET_LIB = $(OUTPUT_DIR)/vl53l0x_python
+TARGET_LIB = vl53l0x/vl53l0x_python
 
 INCLUDES = \
 	-I$(ROOT_DIR) \
